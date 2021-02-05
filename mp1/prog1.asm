@@ -117,7 +117,7 @@ PRINT_HIST
 ; and be put into another register. The register store values that are converted into ASCII value representing the digits which is converted into 
 ; ASCII value representing the digit to be printed onto the monitor. 
 
-; Partners: shreyav3, ajayka2
+; Partners: shreyav3
 
 ; Register Table:
 ; R0 serves as a loop counter which keeps track of the right number of bits to be extracted from the 
@@ -190,9 +190,8 @@ DIG_LOOP_DONE
 	ADD R2, R2, #1       ; current value at R2 is added with 1, updating R2 in general to become the address of the next bin
 	BRnzp CHAR_PRINT     ; heads to the CHAR_PRINT label
 
-DONE	
-    HALT		         ; done
-
+DONE			     
+    HALT                 ; done
 
 ; the data needed by the program
 NUM_BINS	.FILL #27	  ; 27 loop iterations
