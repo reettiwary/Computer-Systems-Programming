@@ -7,7 +7,7 @@
 ; the output which is stored in R5. Finally, within this program, if the user enters an unknown character/value which is a nonnumber or operator
 ; then the program prints "Wrong equation used".
 
-; Partners: shreyav3, ajayka2
+; Partners: shreyav3
 
 .ORIG x3000
 	
