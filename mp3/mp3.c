@@ -2,7 +2,7 @@
 // by allowing the user to input a row number and the 
 //program outputting the correct numbers for that specified row.
 
-//partners: shreyav3
+//partners: shreyav3, ajayka2
 
 #include <stdio.h>
 #include <stdlib.h>
