@@ -52,7 +52,7 @@ int is_prime(int number)
 int print_semiprimes(int a, int b)
 {
     int i, j, k;
-    int ret = 0;
+    int ret = 1;
     for (i = a; i <=b; i++) { //for each item in interval
         //check if semiprime
         for (j = 2; j <= i; j++) {
