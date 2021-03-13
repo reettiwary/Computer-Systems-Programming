@@ -164,7 +164,7 @@ void start_game () {
 int make_guess (const char guess_str[]) {
   // your code here
   char guesses_array[4][10]; //an array where the guesses will be stored is set
-  char extra_char[190]; // an array which will store the extra characters can be set with 190 
+  char extra_char[2]; // an array which will store the extra characters can be set with 2 similar to post[2] 
  
   if(sscanf(guess_str,"%s %s %s %s %1s", guesses_array[0], guesses_array[1], guesses_array[2], guesses_array[3], extra_char)!= 4){ //splits the guess_str properly
     //if more than 4 guesses are made then prints an error message if it does exceed by alot
