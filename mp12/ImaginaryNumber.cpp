@@ -1,7 +1,7 @@
 #include "ImaginaryNumber.h"
 	#include "helper.h"
 	
-	//partners: rtiwary2, tkarim3
+	//partners: shreyav3, tkarim3
 	
 	ImaginaryNumber::ImaginaryNumber()
 	{
